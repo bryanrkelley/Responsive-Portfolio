@@ -1,0 +1,189 @@
+  html,
+  body {
+    height: 100%;
+  }
+
+  body {
+    background: #EFEEE7;
+    color: #473634;
+    display: flex;
+    flex-direction: column;
+  }
+
+/* Anchors and anchor usages */
+
+  a {
+    color: #3030dd;
+  }
+
+  nav a {
+    color: gray;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #8630dd;
+  }
+
+  a:hover {
+    color: rgb(39, 161, 161);
+  }
+
+  a:active {
+    color: #30dddd;
+  }
+
+  .nav-link {
+    text-align: right;
+    float: right;
+  }
+
+  .nav-item {
+    text-align: right;
+    float: right;
+  }
+
+  .navbar {
+    display: block;
+  }
+
+/* Header and header usages */
+
+  /* header {
+    background: #333333;
+    color: white;
+    margin: 0;
+    height: 10%;
+  } 
+
+  header h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding-top: .5em;
+    padding-left: .5em;
+    float: left;
+    font-size: 30px;
+  }
+
+  header nav {
+    text-align: right;
+    color: white;
+    margin: 0;
+    padding: .5em;
+    float: right;
+    font-size: 25px;
+  } */
+
+  .content {
+    padding: 0 1em;
+    overflow: auto;
+    flex: 1 0 auto;
+  }
+
+  .bio {
+    float: left;
+    width: 75%;
+    overflow: auto;
+    padding-top: 1em;
+
+  }
+
+  .contact {
+    float: right;
+    width: 25%;
+  }
+
+  .bio img {
+    float: left;
+    padding-right: 1em;
+    padding-bottom: 1em;
+  }
+
+  .portfolio {
+    text-align: center;
+  }
+
+
+
+  footer {
+    background: #333333;
+    color: white;
+    margin-top: 10px;
+    height: 5vh;
+    text-align: right;
+    padding: .5vh;
+  }
+
+  .footer {
+    flex-shrink: 0;
+  }
+
+  input[type=text],
+  select,
+  textarea {
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #064d26;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 210px 210px;
+    grid-auto-rows: 210px;
+    /* grid-template-columns: repeat(auto-fill, minmax(210px, 2fr)); */
+    grid-gap: 10px;
+    margin-left: 33.3333333%;
+
+  }
+
+  .box {
+    position: relative;
+    justify-content: center;
+    float: center;
+    /* overflow: hidden; */
+    /* icons extend past the boxes. Hididng overflow fixes this. */
+  }
+
+  .icon {
+    height: 100%;
+    /* width: 200px; */
+    /* object-fit: cover; */
+
+  }
+
+  p.banner {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* width: 170px; */
+    /* padding: 5px 10px 5px 20px; */
+    background-color: #4aaaa5;
+    color: #fff;
+  }
